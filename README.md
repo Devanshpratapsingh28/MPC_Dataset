@@ -23,7 +23,7 @@ In this problem you do not have to predict actual price but a price range indica
 2. `pc and fc` and `3g and 4g` have slightly more correlation with each other in comarison to others.
 3. Total four categories of price range is there.
 4. Converting datypes of some variables like `blue`,`four_g`, `n_cores` etc. to category so that later we can easily create pipelines with different properties for numerical and categorical columns.
-5. performed a train-test split using **train_test_split** from **sklearn.model_selection**.
+5. Performed a train-test split using **train_test_split** from **sklearn.model_selection**.
 6. Scale the inputs using **Standard Scalar**. 
 
 ### Models Tried 
